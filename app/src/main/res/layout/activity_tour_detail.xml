@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv_tour_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".TourDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_weight="70"
+                android:id="@+id/img_item"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_tour_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Tour Name"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tour_descript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="Deskripsi" />
+
+        <TextView
+            android:id="@+id/tv_tour_descript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            tools:text="Tour Descript" />
+
+        <TextView
+            android:id="@+id/tour_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="Lokasi" />
+
+        <TextView
+            android:id="@+id/tv_tour_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            tools:text="Tour Location" />
+
+        <TextView
+            android:id="@+id/tour_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="Jam Buka" />
+
+        <TextView
+            android:id="@+id/tv_tour_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            tools:text="Tour Hours" />
+
+        <TextView
+            android:id="@+id/tour_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="Harga Ticket" />
+
+        <TextView
+            android:id="@+id/tv_tour_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            tools:text="Tour Ticket" />
+
+        <TextView
+            android:id="@+id/tour_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="Aktivitas / Wahana" />
+
+        <TextView
+            android:id="@+id/tv_tour_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            tools:text="Tour Activity" />
+
+    </LinearLayout>
+
+</ScrollView>
